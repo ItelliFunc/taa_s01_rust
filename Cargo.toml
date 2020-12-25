@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "gcd",
+    "gcd_recursive",
+    "lcm",
+]

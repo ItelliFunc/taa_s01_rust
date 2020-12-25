@@ -1,0 +1,10 @@
+[package]
+name = "lcm"
+version = "0.1.0"
+authors = ["以太立方 <itellifunc@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gcd_recursive = { path = "../gcd_recursive" }
