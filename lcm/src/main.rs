@@ -7,6 +7,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
     if args.len() != 3 {
         dbg!(MSG);
+        return
     }
     let a = match args[1].parse::<i32>() {
         Ok(v) => v,
